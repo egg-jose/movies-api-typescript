@@ -1,11 +1,5 @@
-import * as express from 'express';
+import app from './app'
 
-const server = express();
-
-server.use('/', (_req, res) => {
-  res.status(200).json('Hello World');
-});
-
-server.listen(4000, () => {
+app.listen(4000, () => {
   console.log('Running at localhost:4000');
 });
