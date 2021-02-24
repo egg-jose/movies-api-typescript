@@ -15,8 +15,8 @@ class App {
     //support application/x-www-form-urlencoded post data
     this.app.use(bodyParser.urlencoded({ extended: false }));
 
-		this.routesMovies = new MovieRoutes();
-		this.app.use('/movie', this.routesMovies.router)
+    this.routesMovies = new MovieRoutes();
+    this.app.use('/movie', this.routesMovies.router);
   }
 }
 

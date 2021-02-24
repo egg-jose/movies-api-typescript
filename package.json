@@ -21,9 +21,9 @@
   "homepage": "https://github.com/jose1897/movies-api-typescript#readme",
   "scripts": {
     "start": "nodemon src/index.ts",
-    "build": "babel ./src -d ./dist --extensions .ts --copy-files",
+    "build": "tsc",
     "serve": "node dist/index.js",
-    "lint": "eslint src",
+    "lint": "eslint ./src",
     "test": "jest --detectOpenHandles",
     "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
   },

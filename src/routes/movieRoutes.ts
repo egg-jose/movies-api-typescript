@@ -3,11 +3,11 @@ import { movieController } from '../controllers/movieController';
 
 class MovieRoutes {
   private controller: movieController;
-  public router :express.Router;
+  public router: express.Router;
 
   constructor() {
     this.controller = new movieController();
-		this.router = express.Router();
+    this.router = express.Router();
 
     this.router
       .route('/')

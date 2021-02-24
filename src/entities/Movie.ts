@@ -8,20 +8,20 @@ export class Movie {
   @Column('varchar')
   public name: string;
 
-	@Column( 'varchar')
-	public director: string;
+  @Column('varchar')
+  public director: string;
 
-	@Column( 'date')
-	public releaseDate: Date;
+  @Column('date')
+  public releaseDate: Date;
 
-	@Column('time without time zone')
-	public durationTime: string;
+  @Column('time without time zone')
+  public durationTime: string;
 
-	@Column('varchar', { array: true })
-	public actors: string[];
+  @Column('varchar', { array: true })
+  public actors: string[];
 
-	@Column('float')
-	public rate: number;
+  @Column('float')
+  public rate: number;
 }
 
 export default Movie;

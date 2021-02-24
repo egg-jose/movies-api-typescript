@@ -1,9 +1,9 @@
 export default interface movieInterface {
-	id?: number;
+  id?: number;
   name?: string;
-	director?: string;
-	releaseDate?: Date;
-	durationTime?: string;
-	actors?: string[];
-	rate?: number;
+  director?: string;
+  releaseDate?: Date;
+  durationTime?: string;
+  actors?: string[];
+  rate?: number;
 }

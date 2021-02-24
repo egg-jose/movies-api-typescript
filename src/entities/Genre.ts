@@ -6,9 +6,9 @@ export class Genre {
   public id: number;
 
   @Column('varchar')
-	public name: string;
+  public name: string;
 
-	@Column('varchar')
+  @Column('varchar')
   public description: string;
 }
 
